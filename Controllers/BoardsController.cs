@@ -45,7 +45,7 @@ namespace DevGames.API.Controllers
 
             _context.Boards.Add(board);
 
-            return CreatedAtAction("GetById", new { id = inputModel.Id }, inputModel);
+            return CreatedAtAction("GetById", new { id = board.Id }, inputModel);
         }
 
         [HttpPut("{id}")]

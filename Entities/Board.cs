@@ -5,9 +5,8 @@ namespace DevGames.API.Entities
 {
     public class Board
     {
-        public Board(int id, string title, string description, string rules)
+        public Board(string title, string description, string rules)
         {
-            Id = id;
             GameTitle = title;
             Description = description;
             Rules = rules;

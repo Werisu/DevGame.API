@@ -52,9 +52,9 @@ namespace DevGames.API.Controllers
             if(board == null)
                 return NotFound();
 
-            var post = mapper.Map<Post>(inputModel);
+            //var post = mapper.Map<Post>(inputModel);
             
-            //var post = new Post(inputModel.Id, inputModel.Title, inputModel.Description);
+            var post = new Post(inputModel.Title, inputModel.Description, board.Id);
             
             board.Posts.Add(post);
 
@@ -78,7 +78,7 @@ namespace DevGames.API.Controllers
                 return NotFound();
             }
 
-            var comment = new Comment(inputModel.Title, inputModel.Description, inputModel.User);
+            var comment = new Comment(inputModel.Title, inputModel.Description, inputModel.User, postId);
 
             post.AddComment(comment);
 
