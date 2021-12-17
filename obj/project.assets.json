@@ -2153,24 +2153,26 @@
     ]
   },
   "packageFolders": {
-    "/home/ti/.nuget/packages/": {}
+    "C:\\Users\\Luiz Marcelo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ti/JornadaDotNet2021-final/DevGames.API/DevGames.API.csproj",
+      "projectUniqueName": "C:\\Dev\\reactApps\\DevGame.API\\DevGames.API.csproj",
       "projectName": "DevGames.API",
-      "projectPath": "/home/ti/JornadaDotNet2021-final/DevGames.API/DevGames.API.csproj",
-      "packagesPath": "/home/ti/.nuget/packages/",
-      "outputPath": "/home/ti/JornadaDotNet2021-final/DevGames.API/obj/",
+      "projectPath": "C:\\Dev\\reactApps\\DevGame.API\\DevGames.API.csproj",
+      "packagesPath": "C:\\Users\\Luiz Marcelo\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\reactApps\\DevGame.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ti/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Luiz Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2230,7 +2232,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/152/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
