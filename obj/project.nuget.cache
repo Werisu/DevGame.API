@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPwDuooigTPQXCzGdszLycZ6eqZdmoiPctBchLZ/iwQ3g+sZkzelByjeTgB+TamZB+9LaVcpau5g0qwy0RwSnQ==",
+  "dgSpecHash": "dUiuINQWtsOgiMg3dxhjezSke3BrjTc4SOgQ/nEKHRyFwrQZFDEVquycnLpLmojBBsT4njw0ksCDIL1LDeqq5w==",
   "success": true,
-  "projectFilePath": "/home/ti/JornadaDotNet2021-final/DevGames.API/DevGames.API.csproj",
+  "projectFilePath": "/home/ti/JornadaDotNet2021-final/braind2/DevGame.API/DevGames.API.csproj",
   "expectedPackageFiles": [
     "/home/ti/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/ti/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
